@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'GeosansLight';
+    src: url(GeosansLight.ttf) format('truetype');
+}
+header {
+	background-color: #225E4E;
+	color : white;
+	font-family : GeosansLight;
+	font-weight : bold;
+	text-align : center;
+	position : fixed;
+	padding : 15px;
+	top : 0;
+	left : 0;
+	height : 120px;
+	width : 100%;
+	z-index : 1
+}
+header h1 {
+	margin : 0;
+	font-size : 2.4em
+}
+header a {
+	text-decoration : none;
+	display : block;
+	color : black
+}
+header li {
+	background-color: #9AB5AE;
+	display : inline-block;
+	min-width : 25%;
+	font-size : 1.4em;
+	line-height : 40px;
+	border-radius : 5px
+}
+header a:hover {
+	border: 4px outset #225E4E;
+	background-color : #374444;
+	color : white;
+	border-radius : 15px
+}
+body {
+	font-family : GeosansLight;
+	background-image : url('Images/matrix.jpg');
+	background-attachment : fixed;
+	background-repeat : no-repeat;
+	background-position : 100%;
+	margin : auto;
+	font-weight: bold
+}
+section {
+	max-width : 1100px;
+	position : relative;
+	top : 150px;
+	margin : auto;
+	padding : 10px
+}
+section > h1 {
+	font-size: 2.5em;
+	border : 1px solid #225E4E;
+	background-color : rgba(0,0,0,0.5);
+	color : white;
+	max-width : 35%;
+	margin : auto;
+	text-align : center;
+	border-radius : 15px
+}
+article {
+	background-color: #7ED6AD;
+	border: 2px solid #225E4E;
+	text-align : center;
+	padding : 10px;
+	margin : 10px
+}
+section article h1 {
+	font-size : 1.8em;
+	border : 1px solid #225E4E;
+	background-color : #9AB5AE;
+	max-width : 20%;
+	margin : auto;
+	text-align : center;
+	border-radius : 15px
+}
+article p {
+	font-size: 1.2em
+}
+article a {
+	text-decoration : none;
+	font-style : italic;
+	color : #225E4E
+}
+footer {
+	position: relative;
+	top: 125px;
+	padding-bottom: 1px;
+	text-align: center;
+	background-color : rgba(0,0,0,0.5);
+	color : white;
+	margin : auto;
+}
+figure {
+	display : inline;
+}
+img {
+	height : 175px;
+	border-radius : 5%
+}
+.Retour{
+	display: block;
+	z-index: 1;
+	position: fixed;
+	color:white;
+	background-color: #225E4E;
+	width: 200px;
+	padding: 20px;
+	right: 100px;
+	bottom: 70px;
+	text-align:center;
+	border: 1px solid #577284;
+	text-decoration: none;
+	font-family: GeosansLight;
+	font-size: 1.5em;
+	opacity: 0.5
+}
+.Retour:hover {
+	opacity: 1;
+    background-color: #225E4E;
+    color: white;
+	font-weight: bold
+}
+.art1 {
+	background-image : url('Images/CERN.jpg');
+	background-attachment : scroll;
+	background-repeat : no-repeat;
+	background-position : top right;
+	background-size : 100px
+}

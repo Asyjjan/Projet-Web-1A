@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'GeosansLight';
+    src: url(GeosansLight.ttf) format('truetype');
+}
+header{
+	background-color: #225E4E;
+	color: white;
+    text-align: center;
+    font-family: GeosansLight;
+	margin: auto;
+	width: 100%;
+}
+header a{
+	color: white;
+	text-decoration: none
+}
+header h1{
+	border-bottom: 1px solid #7ED6AD;
+	margin: auto;
+	padding: 10px;
+	font-size: 22px;
+	font-variant: small-caps
+}
+header ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 14px
+}
+header li{
+	border-bottom: 1px solid #7ED6AD;
+	padding: 0;
+	margin: 0
+}
+header li a{
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 15px
+}
+header li a:hover{
+	color: #225E4E;
+	background-color: #7ED6AD
+}
+body{
+	margin: 0;
+    font-family: GeosansLight;
+	background-image: url('images/matrix.jpg')
+}
+section{
+	width: 95%;
+	background-color: #7ED6AD;
+	margin: 10px auto auto auto;
+	padding: 0;
+	border: 1px solid black
+}
+section h1{
+	text-align: center;
+	font-size: 18px;
+	padding: 5px
+}
+article{
+	padding: 15px;
+	margin: 15px;
+	background-color: darkseagreen;
+	font-size: 12px;
+	border: 1px solid black
+}
+article h1{
+	font-size: 14px;
+	background-color: #7ED6A2;
+	width: 40%;
+	margin: auto;
+	border: 1px solid black;
+	border-radius:10px
+}
+footer{
+	background-color: rgba(0,0,0,0.5);
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	line-height: 12px;
+	font-size: 10px;
+	color: white
+}
+img{
+	display: none
+}
+.EE{
+	text-decoration: none;
+	color: rgba(11,213,46,0.8);
+	position: relative;
+	top: 5px;
+	left: 30px
+}
+.Retour{
+	display: block;
+	color:white;
+	background-color: #225E4E;
+	width: 50px;
+	padding: 5px;
+	right: 15px;
+	bottom: 33px;
+	text-align:center;
+	border: 1px solid #577284;
+	text-decoration: none;
+	position: fixed;
+	font-family: GeosansLight;
+	font-size: 10px;
+	opacity: 0.2;
+	z-index: 1;
+	line-height: 14px
+}
